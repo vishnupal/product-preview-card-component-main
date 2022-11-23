@@ -107,6 +107,7 @@ body {
   overflow: hidden;
   background-color: var(--neutral-white);
   max-width: 600px;
+  margin-bottom: 2rem;
 }
 .category {
   text-transform: uppercase;
@@ -157,6 +158,13 @@ body {
   cursor: pointer;
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
 @media (min-width: 660px) {
   .main {
     grid-template-columns: 1fr 1fr;
