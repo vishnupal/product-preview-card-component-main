@@ -163,10 +163,10 @@ body {
   color: hsl(228, 45%, 44%);
 }
 @media (min-width: 660px) {
+  .perfume-description {
+    padding: 2rem;
+  }
   .main {
     grid-template-columns: 1fr 1fr;
-  }
-  picture {
-    min-height: 100%;
   }
 }
